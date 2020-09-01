@@ -5,6 +5,10 @@ server.get("/", (req, res) => {
   res.send("Welcome home");
 });
 
+server.get("/github", (req, res) => {
+  res.send("Welcome to github");
+});
+
 let PORT = process.env.PORT || 3000;
 
 server.listen(PORT, () => {
