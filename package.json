@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "deploying to heroku",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "deploy"
+  },
+  "keywords": [
+    "deploy"
+  ],
+  "author": "stephen trewick",
+  "license": "ISC"
+}
